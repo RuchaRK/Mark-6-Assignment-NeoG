@@ -17,6 +17,7 @@ function clickHandler(){
     clickBtn.style.display = "none";
     loader.style.display = "block";
     clickBtn2.style.display = "block";
+    clickBtn2.disabled = true;
 
     fetch(createURL(inputText))
     .then(response => response.json())

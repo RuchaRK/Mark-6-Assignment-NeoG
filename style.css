@@ -85,7 +85,7 @@ img{
 }
 #preloader{
     background: white url(images/loader.gif) no-repeat center center;
-    background-size: 50%;
+    background-size: 70%;
     width: 500px;
     height: 50vh;
     z-index: 100;
