@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+
+:root
+{
+    --yellow-color:#f5e050;
+    --blue-color:#115695;
+    --black-color:black;
+}
+
+
+body{
+  
+    font-family: 'Merienda', cursive;
+}
+h1{
+    text-align: center;
+    color: var(--yellow-color);
+    padding: 1rem 1rem;
+  
+}
+h2{
+    text-align: center;
+    color: var(--yellow-color);
+
+}
+
+p{
+    text-align: center;
+    color: var(--yellow-color);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+textarea{
+    /* width: 465px;
+    height: 20vh; */
+    height: 20vh;
+    width: 465px;
+    display: block;
+    padding: 1rem 1rem;
+    margin: 2rem 0rem;
+    border: var(--black-color) solid ;
+    
+}
+nav{
+   
+    background-color:var(--blue-color);
+    padding: 1rem 1rem;
+}
+button{
+    font-family: 'Merienda', cursive;
+    background-color:var(--yellow-color);
+    color:var(--blue-color);
+    font-size: 25px;
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+}
+
+img{
+    display: block;
+    height: 400px;
+    width: 465px;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.container{
+    display: grid;
+}
+
+#txt-area2{
+    border: var(--black-color) solid ;
+    /* width: 465px;
+    height: 20vh; */
+    height: 20vh;
+    width: 465px;
+    display: block;
+    padding: 1rem 1rem;
+    margin: 2rem 0rem;
+
+}
