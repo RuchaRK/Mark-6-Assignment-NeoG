@@ -83,3 +83,11 @@ img{
     margin: 2rem 0rem;
 
 }
+#preloader{
+    background: white url(images/loader.gif) no-repeat center center;
+    background-size: 50%;
+    width: 500px;
+    height: 50vh;
+    z-index: 100;
+    margin: 1rem 1rem;
+}
